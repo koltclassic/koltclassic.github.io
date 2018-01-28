@@ -1,14 +1,13 @@
 # Setup
-title:        Project or Site name
-tagline:      A responsive theme for your project on GitHub Pages
+title:        Kolt Ewing's Website
 baseurl:      ""
 paginate:     1
 locale:       "en"
 
 # About/contact
 author:
-  name:       Author name
-  url:        http://yourhomepage.com 
+  name:       Kolt Ewing
+  url:        http://koltclassic.github.io 
 
 # Gems
 gems:
