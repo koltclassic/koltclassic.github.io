@@ -7,7 +7,8 @@ locale:       "en"
 # About/contact
 author:
   name:       Kolt Ewing
-  url:        http://koltclassic.github.io 
+  url:        http://koltclassic.github.io
+  twitter:    https://twitter.com/kolt_e 
 
 # Gems
 gems:
