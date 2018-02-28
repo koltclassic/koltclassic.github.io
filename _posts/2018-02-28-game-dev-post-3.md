@@ -14,6 +14,7 @@ One aspect of the tutorial explained how to make a turret rotate naturally towar
 I also learned about Gizmos for the first time.
 The official Unity documentation definition:
 > Gizmos are used to give visual debugging or setup aids in the scene view.
+
 Gizmos were used to get a sense for the shooting radius that a turret had when created. The Gizmo was drawn using the `OnDrawGizmosSelected()` method, and the "drawing" used to represent the shooting radius was a wireframe sphere.
 
 ```C#
