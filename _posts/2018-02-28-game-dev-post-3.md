@@ -27,9 +27,11 @@ Gizmos were used to get a sense for the shooting radius that a turret had when c
 
 With this method added, I could visually understand the difference between different turret ranges:
 A turret with a range of 15
-![A turret with a wireframe sphere showing a range of 15]({{ "/assets/GizmoRange15.png" | absolute_url }})
+![]({{ "/assets/GizmoRange15.png" | absolute_url }})
+*A turret with a wireframe sphere showing a range of 15*
 The same turret with a range of 5
-![A turret with a wireframe sphere showing a range of 5]({{ "/assets/GizmoRange5.png" | absolute_url }})
+![]({{ "/assets/GizmoRange5.png" | absolute_url }})
+*A turret with a wireframe sphere showing a range of 5*
 
 Understanding performance is a recurring theme of learning Unity. There always seem to be a more performant way to do things, which can become a constant worry when developing both in creating games and for programming in general. Performance was highlighted in the tower defense tutorial via the calculation that is done on towers to find nearby enemies to target. To prevent this calculation from happening much too often, an `InvokeRepeating` method was added to the `Start` function:
 
